@@ -78,7 +78,7 @@ function App() {
 
         <header className="invitation-header">
           <h2>¡¡¡Te invito a mi fiesta!!!</h2>
-          <h2>Celebra conmigo mis 4 años</h2>
+          <h2>Celebra conmigo mis 4 años.</h2>
           <h1>
             <p>Leonardo</p>
           </h1>
@@ -101,7 +101,7 @@ function App() {
           <h1 className='especial'>¡Ademas ese día será muy especial!</h1>
        
           <h2>
-            <p className='atencion'>Mis papás y yo revelaremos si será <mark className='nina'>niña</mark> o <mark className='nino'>niño</mark></p>
+            <p className='atencion'>Mis papás y yo revelaremos si será <mark className='nina'>niña</mark> o <mark className='nino'>niño</mark>.</p>
            
                      </h2>
          
