@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/leito/static/css/main.605e0011.css",
-    "main.js": "/leito/static/js/main.8907b58b.js",
+    "main.js": "/leito/static/js/main.1e6ebcde.js",
     "static/js/453.4a1344bc.chunk.js": "/leito/static/js/453.4a1344bc.chunk.js",
     "index.html": "/leito/index.html",
     "main.605e0011.css.map": "/leito/static/css/main.605e0011.css.map",
-    "main.8907b58b.js.map": "/leito/static/js/main.8907b58b.js.map",
+    "main.1e6ebcde.js.map": "/leito/static/js/main.1e6ebcde.js.map",
     "453.4a1344bc.chunk.js.map": "/leito/static/js/453.4a1344bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.605e0011.css",
-    "static/js/main.8907b58b.js"
+    "static/js/main.1e6ebcde.js"
   ]
 }
