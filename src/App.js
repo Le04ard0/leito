@@ -61,7 +61,7 @@ function App() {
   return (
     <>
       {/* Audio de fondo */}
-      <audio id="paw-patrol-audio" src="/audio.mp3" loop />
+      <audio id="paw-patrol-audio" src={`${process.env.PUBLIC_URL}/audio.mp3`}loop />
 
       {/* Contenedor de estrellas */}
       <div id="star-container"></div>
@@ -93,7 +93,7 @@ function App() {
 
         {/* Detalles del evento */}
         <div className="details">
-          <img src="/paw.jpg" alt="Paw Patrol" className="birthday-image" />
+          <img src={`${process.env.PUBLIC_URL}/paw.jpg`} alt="Paw Patrol" className="birthday-image" />
           <div className="event-info">
        
             <p>📅 Fecha: 22 de diciembre de 2024</p>
