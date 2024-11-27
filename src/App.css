@@ -43,12 +43,18 @@ h1{
   margin-bottom: 20px;
 }
 
-.event-info h2 {
-  color: #FF6347;
+.pies {
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
+
 .event-info p {
+  color:#00fd0d;
   margin: 10px 0;
+ text-decoration: wavy;
+
 }
 
 #star-container {
@@ -102,4 +108,9 @@ h1{
   border-radius: 50% 50% 45% 45%;
   animation: float 4s infinite;
   opacity: 0.8;
+}
+
+
+.revelacion,.especial,.h1{
+  color: #d9ff00;
 }

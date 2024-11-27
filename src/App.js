@@ -91,15 +91,31 @@ function App() {
           </button>
         )}
 
+
+
         {/* Detalles del evento */}
         <div className="details">
           <img src={`${process.env.PUBLIC_URL}/paw.jpg`} alt="Paw Patrol" className="birthday-image" />
-          <div className="event-info">
+          
+
+          <header className="revelacion">
+          <h1 id='especial'>¡Ademas ese día será muy especial!</h1>
        
-            <p>📅 Fecha: 22 de diciembre de 2024</p>
+          <h2>
+            <p id='atencion'>Mis papás y yo revelaremos si será niño o niña</p>
+          </h2>
+         
+           <img src={`${process.env.PUBLIC_URL}/pies.png`} alt="pies" className="pies"/>
+</header>
+
+
+          <div className="event-info">
+                   <p>📅 Fecha: 21 de diciembre de 2024</p>
             <p>🕒 Hora: 3:00 PM</p>
             <p>📍 Lugar: Simón Bolívar 1, barrio de San Juan, Zimatlán de Álvarez</p>
           </div>
+
+
         </div>
       </div>
     </>
