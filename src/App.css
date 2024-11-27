@@ -5,16 +5,10 @@ body {
   overflow-x: hidden; /* Permitir scroll vertical pero evitar horizontal */
 }
 
-h1{
+h1,h2{
   color: #00ebfc;
 }
 
-
-.countdown,.days{
-  color: #00ebfc;
- font-weight:900;
- text-decoration: dashed;
-}
 
 
 .invitation-container {
@@ -25,6 +19,9 @@ h1{
   padding: 3px;
   overflow: visible; /* Asegura que los detalles no se corten */
 }
+
+
+
 
 .details {
   margin: 10px auto;
@@ -54,6 +51,7 @@ h1{
   color:#00fd0d;
   margin: 10px 0;
  text-decoration: wavy;
+font-size: 20px;
 
 }
 
@@ -111,6 +109,25 @@ h1{
 }
 
 
-.revelacion,.especial,.h1{
-  color: #d9ff00;
+
+.especial,.h1{
+color: #ece800;
 }
+
+.atencion,.h2{
+  color: #ece800;
+  }
+
+  .contador,.h2{
+    color: #ece800;
+    }
+
+
+
+    .mark,.nina {
+      background: rgb(253, 1, 140);
+    }
+
+    .mark,.nino {
+      background: rgb(1, 110, 253);
+    }

@@ -71,13 +71,14 @@ function App() {
         {/* Contador regresivo */}
         <div className="countdown">
           <h2>¡Faltan!</h2>
-          <p>
-            {timeLeft.days} días, {timeLeft.hours} horas, {timeLeft.minutes} minutos, {timeLeft.seconds} segundos
-          </p>
+       <h2 className='contador'>
+            {timeLeft.days} días, {timeLeft.hours} horas, {timeLeft.minutes} minutos, {timeLeft.seconds} segundos</h2>
+       
         </div>
 
         <header className="invitation-header">
-          <h2>¡Celebra conmigo mis 4 años !</h2>
+          <h2>¡¡¡Te invito a mi fiesta!!!</h2>
+          <h2>Celebra conmigo mis 4 años</h2>
           <h1>
             <p>Leonardo</p>
           </h1>
@@ -94,16 +95,15 @@ function App() {
 
 
         {/* Detalles del evento */}
-        <div className="details">
+          <div className="details">
           <img src={`${process.env.PUBLIC_URL}/paw.jpg`} alt="Paw Patrol" className="birthday-image" />
-          
-
-          <header className="revelacion">
-          <h1 id='especial'>¡Ademas ese día será muy especial!</h1>
+      <header className="revelacion">
+          <h1 className='especial'>¡Ademas ese día será muy especial!</h1>
        
           <h2>
-            <p id='atencion'>Mis papás y yo revelaremos si será niño o niña</p>
-          </h2>
+            <p className='atencion'>Mis papás y yo revelaremos si será <mark className='nina'>niña</mark> o <mark className='nino'>niño</mark></p>
+           
+                     </h2>
          
            <img src={`${process.env.PUBLIC_URL}/pies.png`} alt="pies" className="pies"/>
 </header>
