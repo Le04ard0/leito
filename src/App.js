@@ -61,7 +61,7 @@ function App() {
   return (
     <>
       {/* Audio de fondo */}
-      <audio id="paw-patrol-audio" src={`${process.env.PUBLIC_URL}/audio.mp3`}loop />
+      <audio id="paw-patrol-audio" src={`${process.env.PUBLIC_URL}/audio.mp3`}/>
 
       {/* Contenedor de estrellas */}
       <div id="star-container"></div>
