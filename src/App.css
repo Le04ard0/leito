@@ -36,12 +36,14 @@ h1,h2{
 
 .birthday-image {
   width: 300px;
+  height: 200px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
 .pies {
-  width: 300px;
+  width: 250px;
+  height: 170px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
