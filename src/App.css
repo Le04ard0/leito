@@ -133,3 +133,7 @@ color: #ece800;
     .mark,.nino {
       background: rgb(1, 110, 253);
     }
+
+    invitation-header,.nombre{
+      color:#ece800
+    }

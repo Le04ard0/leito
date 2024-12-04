@@ -80,7 +80,7 @@ function App() {
           <h2>¡¡¡Te invito a mi fiesta!!!</h2>
           <h2>Celebra conmigo mis 4 años.</h2>
           <h1>
-            <p>Leonardo</p>
+            <p className='nombre'>"LEONARDO"</p>
           </h1>
         </header>
 
