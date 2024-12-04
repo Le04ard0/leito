@@ -77,8 +77,8 @@ function App() {
         </div>
 
         <header className="invitation-header">
-          <h2>¡¡¡Te invito a mi fiesta!!!</h2>
-          <h2>Celebra conmigo mis 4 años.</h2>
+          <h2>¡¡¡Te invito a celebrar!!!</h2>
+          <h1>Mis 4 años</h1>
           <h1>
             <p className='nombre'>"LEONARDO"</p>
           </h1>
@@ -98,7 +98,7 @@ function App() {
           <div className="details">
           <img src={`${process.env.PUBLIC_URL}/paw.jpg`} alt="Paw Patrol" className="birthday-image" />
       <header className="revelacion">
-          <h1 className='especial'>¡Ademas ese día será muy especial!</h1>
+          <h1 className='especial'>¡Además ese día será muy especial!</h1>
        
           <h2>
             <p className='atencion'>Mis papás y yo revelaremos si será <mark className='nina'>niña</mark> o <mark className='nino'>niño</mark>.</p>
